@@ -1,0 +1,57 @@
+<html>
+<head>
+    <title>Imagen 3D Efecto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="img-box" class="full">
+        <div class="shadow1"></div>
+        <div class="shadow2"></div>
+        <img src="img/img-1.png" id="smallimg">
+    </div>
+    <div class="imageList">
+        <ul>
+            <li onclick="onWebsite()">WebSite</li>
+            <li onclick="onMobileApp()">Mobile App</li>
+            <li onclick="onMarketing()">Marketing</li>
+            <li onclick="onSoftware()">Software</li>
+        </ul>
+    </div>
+    
+    <div class="btn-box" onclick="imageSize()">
+        <span id="btnIcon">&#9776;</span>
+    </div>
+
+    <script>
+        var smallImg = document.getElementById("smallimg");
+        var imgBox   = document.getElementById("img-box");
+        var menuIcon = document.getElementById("btnIcon");
+
+        function onWebsite(){
+            smallImg.src = "img/img-1.png";
+        }
+        function onMobileApp(){
+            smallImg.src = "img/img-2.jpg";
+        }
+        function onMarketing(){
+            smallImg.src = "img/img-3.png";
+        }
+        function onSoftware(){
+            smallImg.src = "img/img-4.png";
+        }
+
+        function imageSize(){
+            if(imgBox.className == "small"){
+                imgBox.className = "full";
+                menuIcon.innerHTML = "&#9776";
+            }
+            else{
+                imgBox.className = "small";
+                menuIcon.innerHTML = "&#10006";
+            }
+        }
+
+    </script>
+
+</body>
+</html>

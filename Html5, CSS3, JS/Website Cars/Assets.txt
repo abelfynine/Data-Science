@@ -1,0 +1,5 @@
+Icons: https://remixicon.com/
+Fonts: https://fonts.google.com/
+Swiper: https://swiperjs.com/
+Mixitup: https://www.kunkalabs.com/mixitup/
+ScrollReveal: https://scrollrevealjs.org/

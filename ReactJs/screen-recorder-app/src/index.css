@@ -1,3 +1,5 @@
+/* Establece el estilo general del cuerpo de la página, eliminando márgenes y rellenos predeterminados, 
+configurando la fuente, el color de fondo y usando flexbox para centrar el contenido. */
 body {
     margin: 0; /* Elimina el margen predeterminado del cuerpo */
     padding: 0; /* Elimina el relleno predeterminado del cuerpo */
@@ -9,6 +11,7 @@ body {
     height: 100vh; /* Establece la altura al 100% de la ventana gráfica */
 }
 
+/* Define el contenedor principal de la aplicación de grabación de pantalla, con un fondo negro, bordes redondeados, una sombra sutil y tamaño máximo especificado. */
 .screen-recorder {
     background-color: #000; /* Establece el color de fondo a negro */
     padding: 30px 260px; /* Añade relleno alrededor del contenido */
@@ -21,6 +24,7 @@ body {
     height: auto; /* Altura automática según el contenido */
 }
 
+/* Establece el estilo del reproductor de video, asegurando que ocupe el ancho completo del contenedor con bordes redondeados. */
 .video-player {
     width: 100%; /* Ancho completo del contenedor */
     max-height: 700px; /* Altura máxima del reproductor de video */
@@ -28,6 +32,7 @@ body {
     margin-bottom: 20px; /* Margen inferior */
 }
 
+/* Configura los botones de control (iniciar y detener grabación) en un diseño flexbox centrado con espacio entre ellos. */
 .controls {
     display: flex; /* Utiliza flexbox para el diseño de los botones de control */
     justify-content: center; /* Centra los botones horizontalmente */
@@ -35,6 +40,7 @@ body {
     margin-top: 20px; /* Margen superior */
 }
 
+/* Estilo base para los botones, incluyendo espaciado interno, bordes redondeados, cursor de mano y transición suave de color de fondo. */
 .btn {
     padding: 10px 20px; /* Espaciado interno de los botones */
     border: none; /* Sin borde */
@@ -44,6 +50,7 @@ body {
     transition: background-color 0.3s; /* Transición suave para el cambio de color de fondo */
 }
 
+/* Establecen colores específicos para los botones de inicio, junto con su estado de hover. */
 .start-btn {
     background-color: #28a745; /* Color de fondo verde para el botón de inicio */
     color: #fff; /* Color del texto en blanco */
@@ -53,6 +60,7 @@ body {
     background-color: #218838; /* Color de fondo verde oscuro al pasar el cursor */
 }
 
+/* Establecen colores específicos para los botones de parada de grabación, junto con sus estado de hover. */
 .stop-btn {
     background-color: #dc3545; /* Color de fondo rojo para el botón de parada */
     color: #fff; /* Color del texto en blanco */
@@ -62,6 +70,7 @@ body {
     background-color: #c82333; /* Color de fondo rojo oscuro al pasar el cursor */
 }
 
+/* Estilos para el texto de estado, diferenciando visualmente entre los estados de grabación y detenido. */
 .status {
     font-size: 18px; /* Tamaño de fuente para el texto del estado */
     margin-top: 10px; /* Margen superior */

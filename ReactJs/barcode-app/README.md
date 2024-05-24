@@ -8,17 +8,9 @@ Este proyecto es una aplicación web creada con React y Vite que permite a los u
 - Mostrar los datos del código de barras capturados.
 - Interfaz sencilla y fácil de usar.
 
-## Prerequisites
-
-Antes de comenzar, asegúrese de tener instalado lo siguiente:
-
-- [Node.js](https://nodejs.org/en/download/)
-- [npm](https://www.npmjs.com/get-npm) or [yarn](https://yarnpkg.com/getting-started/install)
-
 ## Dependencies
 
-react: biblioteca de JavaScript para crear interfaces de usuario.
-react-dom: punto de entrada al DOM y a los renderizadores del servidor para React.
-vite: Herramientas frontales de próxima generación.
-react-webcam-barcode-scanner: componente de React para escanear códigos de barras de la cámara web.
- 
+- `react`: biblioteca de JavaScript para crear interfaces de usuario.
+- `react-dom`: punto de entrada al DOM y a los renderizadores del servidor para React.
+- `vite`: Herramientas frontales de próxima generación.
+- `react-webcam-barcode-scanner`: componente de React para escanear códigos de barras de la cámara web.

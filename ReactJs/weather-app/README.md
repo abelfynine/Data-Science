@@ -32,4 +32,4 @@ Este proyecto es una aplicación web para consultar el tiempo de una ciudad y ve
 - Este proyecto está desplegado en [GitHub Pages](https://pages.github.com/).
 
 ## Web URL
-[TheWeatherApp](https://abeldeveloper9.github.io/TheWeatherApp/).
+- [TheWeatherApp](https://abeldeveloper9.github.io/TheWeatherApp/).

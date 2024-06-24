@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/********** Range Input Styles **********/
+/***** Chrome, Edge Chromium, Safari and Opera styles *****/
+/***** Thumb Styles *****/
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 10px;
+    /* Ancho de la bolita */
+    height: 10px;
+    /* Altura de la bolita */
+    background-color: white;
+    /* Color de la bolita */
+    border-radius: 50%;
+    /* Hace que la bolita sea redonda */
+    cursor: pointer;
+    /* Cambia el cursor al pasar sobre la bolita */
+}
+
+/******** Firefox styles ********/
+@-moz-document url-prefix() {
+    input[type="range"] {
+        margin-top: 1rem;
+    }
+}
+/***** Thumb Styles *****/
+input[type="range"]::-moz-range-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    /* Ancho de la bolita */
+    width: 10px;
+    /* Altura de la bolita */
+    height: 10px;
+    /* Color de la bolita */
+    background-color: white;
+    /* Elimina el borde adicional que aplica FF */
+    border: none;
+    /* Hace que la bolita sea redonda */
+    border-radius: 50%;
+    /* Cambia el cursor al pasar sobre la bolita */
+    cursor: pointer;
+}

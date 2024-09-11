@@ -1,0 +1,10 @@
+# Ignora la carpeta `node_modules` en el control de versiones.
+# Esta carpeta contiene todas las dependencias instaladas a través de npm, y suele ser muy grande.
+# Las dependencias pueden ser instaladas nuevamente ejecutando `npm install`, por lo que no es necesario
+# incluir esta carpeta en el repositorio.
+node_modules
+
+# Ignora el archivo `.env`, que contiene variables de entorno sensibles como contraseñas y configuraciones.
+# Este archivo no debe ser incluido en el repositorio por razones de seguridad, ya que contiene información confidencial
+# como credenciales de bases de datos. Cada desarrollador o entorno puede tener su propio archivo `.env`.
+.env
